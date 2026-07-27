@@ -133,3 +133,30 @@
   span.highlight {
     background-color: #ffffd0;
   }
+
+
+
+.logo-cell {
+  padding: 20px;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.logo-box {
+  width: 110px;
+  height: 85px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-box img {
+  max-width: 85px;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.logo-box .epfl-logo {
+  max-width: 105px;
+}
